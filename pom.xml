@@ -63,7 +63,7 @@
           <region>centralus</region>
           <runtime>
             <os>Linux</os>
-            <javaVersion>Java 17</javaVersion>
+            <javaVersion>Java 11</javaVersion>
             <webContainer>Tomcat 10.0</webContainer>
           </runtime>
           <deployment>
