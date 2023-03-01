@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                // sh 'git clone https://github.com/siva8143kumar/basic-jsp-example.git'
+                
               
                 sh '/opt/apache-maven-3.9.0/bin/mvn clean install'
                 sh 'ls -lrt'
@@ -20,6 +20,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
+                sh 'sudo cp /var/lib/jenkins/.m2/repository/example/demo/helloworld/1.0-SNAPSHOT/helloworld-1.0-SNAPSHOT.war /opt/apache-tomcat-9.0.72/webapps/'
             }
         }
     }
