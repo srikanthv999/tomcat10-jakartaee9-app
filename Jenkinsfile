@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
                 
               
-                sh '/opt/apache-maven-3.9.0/bin/mvn clean install'
+                sh 'mvn clean install'
                 sh 'ls -lrt'
             }
         }
