@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Stage'
+                echo 'Build Stage automatically'
                 sh '/opt/apache-maven-3.9.0/bin/mvn clean install'
                 }
         }
