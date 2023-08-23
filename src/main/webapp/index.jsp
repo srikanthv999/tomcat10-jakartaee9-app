@@ -7,7 +7,7 @@
     <p>Testing webhooks .. Triggeres automatically</p>
     <p>Hurray... Successfully deployed</p>
     <a href="./helloservlet">Hit the /hello Servlet</a>
-<h2> Welcome to Jenkins Pipeline session by Srikanth </h2>
+<h2> Welcome to Jenkins Pipeline session by Srikanth .... We are in the Aug Evening batch </h2>
 </body>
 
 </html>
